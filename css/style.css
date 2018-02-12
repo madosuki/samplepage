@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Ohayo";
+    src: url("fonts/Ohayo.otf");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: mintcream;
+    font-family: Helvetica, Arial, "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, sans-serif, serif;
+}
+
+#head {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav#mainmenu ul {
+    background-color: antiquewhite;
+    border: 1em;
+    list-style: none;
+}
+
+nav#mainmenu ul li {
+    display: inline-block;
+}
+
+ul#gallery {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    /*font-size: 0;*/
+}
+
+h2#gallerytitle {
+    font-family: 'Domine', serif;
+    font-size: 4em;
+}
+
+img.photo {
+    max-width: 640px;
+}
+
+#about {
+    margin-top: 10%;
+}
+
+#column {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#content {
+    background: whitesmoke;
+    border: 1px solid black;
+}
+
+#leftbar {
+    min-width: 10em;
+    border: 1px solid black;
+    margin-right: 1em;
+    margin-left: 1em;
+    background-color: whitesmoke;
+}
+
+#leftbar ol {
+    font-family: "Ohayo";
+}
+
+#rightbar {
+    border: 1px solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    text-align: left;
+    min-width: 10em;
+    background-color: whitesmoke;
+}
