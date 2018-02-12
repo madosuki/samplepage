@@ -7,8 +7,9 @@ body {
     font-family: Helvetica, Arial, "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, sans-serif, serif;
 }
 
-#head {
+.head {
     font-family: 'Times New Roman', Times, serif;
+    display: inline;
 }
 
 nav {
