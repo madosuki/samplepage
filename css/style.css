@@ -24,7 +24,6 @@ nav#mainmenu ul {
 
 nav#mainmenu ul li {
     display: inline-block;
-    min-width: 100vw;
 }
 
 ul#gallery {
